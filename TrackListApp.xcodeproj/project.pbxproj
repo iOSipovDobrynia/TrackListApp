@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E31145BF2A8BDDC800FFB940 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31145BE2A8BDDC800FFB940 /* Track.swift */; };
+		E31145C12A8BF7CC00FFB940 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31145C02A8BF7CC00FFB940 /* TrackDetailsViewController.swift */; };
+		E3D49CF82A8B4ECE0025681D /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D49CF72A8B4ECE0025681D /* TrackListViewController.swift */; };
 		E3F4B5F82A89FDAF000EE5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4B5F72A89FDAF000EE5D3 /* AppDelegate.swift */; };
 		E3F4B5FA2A89FDAF000EE5D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4B5F92A89FDAF000EE5D3 /* SceneDelegate.swift */; };
-		E3F4B5FC2A89FDAF000EE5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4B5FB2A89FDAF000EE5D3 /* ViewController.swift */; };
 		E3F4B5FF2A89FDAF000EE5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F4B5FD2A89FDAF000EE5D3 /* Main.storyboard */; };
 		E3F4B6012A89FDB0000EE5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F4B6002A89FDB0000EE5D3 /* Assets.xcassets */; };
 		E3F4B6042A89FDB0000EE5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F4B6022A89FDB0000EE5D3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E31145BE2A8BDDC800FFB940 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		E31145C02A8BF7CC00FFB940 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
+		E3D49CF72A8B4ECE0025681D /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		E3F4B5F42A89FDAF000EE5D3 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F4B5F72A89FDAF000EE5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F4B5F92A89FDAF000EE5D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3F4B5FB2A89FDAF000EE5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3F4B5FE2A89FDAF000EE5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3F4B6002A89FDB0000EE5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3F4B6032A89FDB0000EE5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				E3F4B5F72A89FDAF000EE5D3 /* AppDelegate.swift */,
 				E3F4B5F92A89FDAF000EE5D3 /* SceneDelegate.swift */,
-				E3F4B5FB2A89FDAF000EE5D3 /* ViewController.swift */,
+				E31145BE2A8BDDC800FFB940 /* Track.swift */,
+				E3D49CF72A8B4ECE0025681D /* TrackListViewController.swift */,
+				E31145C02A8BF7CC00FFB940 /* TrackDetailsViewController.swift */,
 				E3F4B5FD2A89FDAF000EE5D3 /* Main.storyboard */,
 				E3F4B6002A89FDB0000EE5D3 /* Assets.xcassets */,
 				E3F4B6022A89FDB0000EE5D3 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F4B5FC2A89FDAF000EE5D3 /* ViewController.swift in Sources */,
 				E3F4B5F82A89FDAF000EE5D3 /* AppDelegate.swift in Sources */,
 				E3F4B5FA2A89FDAF000EE5D3 /* SceneDelegate.swift in Sources */,
+				E31145C12A8BF7CC00FFB940 /* TrackDetailsViewController.swift in Sources */,
+				E3D49CF82A8B4ECE0025681D /* TrackListViewController.swift in Sources */,
+				E31145BF2A8BDDC800FFB940 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
