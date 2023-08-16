@@ -25,7 +25,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="yMc-w8-myq" kind="show" id="vaY-Go-U5V"/>
+                                    <segue destination="yMc-w8-myq" kind="show" identifier="showTrackDetails" id="vaY-Go-U5V"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

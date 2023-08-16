@@ -17,7 +17,12 @@ class TrackDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        trackCoverImageView.image = UIImage(named: track.title)
-        trackTitleLabel.text = track.title
+//        trackCoverImageView.image = UIImage(named: track.title)
+//        trackTitleLabel.text = track.title
+        
+        if let track = track {
+            trackCoverImageView.image = UIImage(named: track.title)
+            trackTitleLabel.text = track.title
+        }
     }
 }

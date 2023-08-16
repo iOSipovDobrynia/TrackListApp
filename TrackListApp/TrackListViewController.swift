@@ -34,13 +34,21 @@ class TrackListViewController: UITableViewController {
         cell.contentConfiguration = content
         return cell
     }
+    
+    // MARK: - UITableViewDelegate
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let track = trackList[indexPath.row]
 
+        performSegue(withIdentifier: "showTrackDetails", sender: track)
+    }
+    
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let trackDetails = segue.destination as? TrackDetailsViewController else {
+        guard let trackDetailsVC = segue.destination as? TrackDetailsViewController else {
             return
         }
-        guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        trackDetails.track = trackList[indexPath.row]
+//        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+//        trackDetailsVC.track = trackList[indexPath.row]
+        trackDetailsVC.track = sender as? Track
     }
 }
